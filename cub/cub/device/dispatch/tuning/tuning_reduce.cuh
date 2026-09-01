@@ -452,7 +452,7 @@ struct policy_selector
           LOAD_LDG};
         return {rp, rp};
       }
-      // fall through to the sm100 tunings for shapes not measured on R200
+      // fall through to the sm100 tunings for untuned shapes
     }
 
     // if we don't have a tuning for sm100, fall through
